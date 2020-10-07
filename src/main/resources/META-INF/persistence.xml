@@ -28,10 +28,12 @@
 
             <property name="javax.persistence.jdbc.password" value="Yoeko@2018" />
             
+            <!-- language de fournisseur de requette -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
 
             <property name="hibernate.show_sql" value="true" />
-
+	
+			<!-- génerer la base Data Description Langage -->
             <property name="hibernate.hbm2ddl.auto" value="update" />
         </properties>
 

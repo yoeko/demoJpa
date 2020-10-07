@@ -17,7 +17,7 @@ public class Lanceur {
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
 		
-		Formation formation = new Formation("JPA");
+		Formation formation = new Formation("Java");
 		
 		em.persist(formation);
 		
